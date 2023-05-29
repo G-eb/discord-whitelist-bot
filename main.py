@@ -6,7 +6,7 @@ intents = discord.Intents.default()
 intents.members = True
 client = commands.Bot(help_command=None, intents=intents)
 
-# full credits of this code goes to Geb#1337
+# https://github.com/G-eb/
 
 with open("config.json") as f:
     geb = json.load(f)
